@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Home() {
 
@@ -8,6 +8,7 @@ function Home() {
 
 
   return (
+  
     <div className="text-justify px-10 mt-12 h-auto">
         <div>
         <h1 className="inline font-bold text-2xl bg-[#389336] p-2 rounded-tl-3xl rounded-br-3xl">About Conference</h1>

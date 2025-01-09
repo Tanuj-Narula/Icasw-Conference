@@ -4,7 +4,7 @@ function Registration() {
   return (
     <div className='h-auto text-justify p-10 mt-10'>
     <div>
-      <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Registration Details</h1>
+      <h1 className="inline font-bold bg-[#389336] p-3 text-md sm:text-2xl rounded-tl-3xl rounded-br-3xl">Registration Details</h1>
       <div className="grid grid-cols-2 mt-4 custom-grid">
       <div className="grid grid-cols-1 gap-4 mt-4">
         <p className='text-lg font-bold'>Category</p>

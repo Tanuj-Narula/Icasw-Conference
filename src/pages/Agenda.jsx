@@ -3,7 +3,7 @@ import React from 'react'
 function Agenda() {
   return (
     <div className='h-auto text-justify p-10 mt-14'>
-      <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Objective of the Conference (ICASW 2025):</h1>
+      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Objective of the Conference (ICASW 2025):</h1>
         <p  className="mt-4">The primary objective of the International Conference on "Integrating Climate Action, AI, SDGs, and Water Management" (ICASW) is to foster interdisciplinary dialogue and collaboration among researchers, policymakers, industry leaders, and practitioners to address the critical challenges posed by climate change and water management through innovative, technology-driven, and sustainable solutions. Specifically, the conference aims to:</p>
         <ol className="list-decimal mt-2 list-inside w-[90%] ml-10">
           <li className='text-lg font-semibold'>Promote Cross-Sectoral Solutions:</li>
