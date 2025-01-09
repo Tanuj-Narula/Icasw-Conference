@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
     <div className='h-auto text-justify p-10 mt-14'>
-      <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
+      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
         <ul className="list-disc mt-4 w-[90%] ml-10">
           <li>Shri S.N. Tripathi, DG IIPA</li>
           <li>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
@@ -24,7 +24,7 @@ function Contact() {
     </div>
     
     <div className='h-auto text-justify p-10'>
-      <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Organizing Committee</h1>
+      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Organizing Committee</h1>
       <div className="grid grid-cols-2 mt-4 custom-grid">
       <div className="grid grid-cols-1 gap-4 mt-4">
         <p className='text-lg font-bold'>Chief Patron</p>
@@ -45,7 +45,7 @@ function Contact() {
       </div>
     </div>
     <div className='h-auto text-justify p-10 text-lg'>
-      <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
+      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
       <p className='mt-4'>Co-convener:</p>
       <p>Dr. Navneet Singh <a href="+91 8877066431">+91 8877066431</a></p>
       <p>SCHOOL OF ENGINEERING & TECHNOLOGY</p>
