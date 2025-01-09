@@ -1,0 +1,9 @@
+.pages li:hover{
+    transform: scale(1.2);
+    background-color: #389336;
+    cursor: pointer;
+}
+.pages li{
+    height: 100%; 
+    padding: 0.5rem;
+}
