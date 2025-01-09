@@ -8,7 +8,7 @@ function Footer() {
       </p>
       <h1 className="text-lg font-semibold ">INDIAN INSTITUTE OF PUBLIC ADMINISTRATION (IIPA)</h1>
       <p>AND</p>
-      <p>CENTRE FOR SUSTAINABLE AND SMART FUTURE (CSSF)</p>
+      <p>CENTRE FOR SUSTAINABLE ADITYA SMART FUTURE (CSSF)</p>
       <p className="text-yellow-400 font-semibold text-2xl">SCHOOL OF ENGINEERING AND TECHNOLOGY</p>
       <h1 className="text-lg font-semibold">VIVEKANANDA INSTITUTE OF PROFESSIONAL STUDIES - TECHNICAL CAMPUS</h1>
       <p>Grade A++ Accredited Institution by NAAC</p>
