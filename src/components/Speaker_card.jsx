@@ -16,7 +16,7 @@ import React from 'react'
 
 const SpeakerCard = ({ img, name, designation, company, location }) => {
   return (
-    <figure className="flex flex-col md:flex-row bg-slate-100 rounded-xl p-6 shadow-2xl dark:bg-green-100 hover:shadow-md duration-200">
+    <figure className="flex flex-col md:flex-row bg-slate-100 rounded-xl p-6 shadow-2xl dark:bg-blue-100 hover:shadow-md duration-200">
       <img
         className="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto md:mx-0"
         src={img}

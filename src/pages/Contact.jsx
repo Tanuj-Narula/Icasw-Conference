@@ -5,8 +5,8 @@ function Contact() {
   return (
     <>
     <div className='h-auto text-justify p-10 mt-14'>
-      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
-        <ul className="list-disc mt-4 w-[90%] ml-10">
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
+        <ul className="list-disc mt-8 w-[100%] ml-3 sm:ml-10">
           <li>Shri S.N. Tripathi, DG IIPA</li>
           <li>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
           <li>Professor Nibedita S. Ray-Bennett FRGS, FHEAProfessor of Risk Management Founder & President, Avoidable Deaths NetworkInterim Associate Director & Research Challenge Leader, Institute for Environmental FuturesMarketing and Strategy, School of Business0.26 Teaching Centre, BrookfieldUniversity of Leicester, Leicester</li>
@@ -24,8 +24,8 @@ function Contact() {
     </div>
     
     <div className='h-auto text-justify p-10'>
-      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Organizing Committee</h1>
-      <div className="grid grid-cols-2 mt-4 custom-grid">
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Organizing Committee</h1>
+      <div className="grid grid-cols-2 mt-8 custom-grid">
       <div className="grid grid-cols-1 gap-4 mt-4">
         <p className='text-lg font-bold'>Chief Patron</p>
         <p className='text-lg font-bold'>Patron</p>
@@ -45,14 +45,14 @@ function Contact() {
       </div>
     </div>
     <div className='h-auto text-justify p-10 text-lg'>
-      <h1 className="inline font-bold text-md sm:text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
-      <p className='mt-4'>Co-convener:</p>
-      <p>Dr. Navneet Singh <a href="+91 8877066431">+91 8877066431</a></p>
-      <p>SCHOOL OF ENGINEERING & TECHNOLOGY</p>
-      <p>Phone: <a href="+ 91 (11) 27343401/02/03">+ 91 (11) 27343401/02/03</a></p>
-      <p>E-mail:</p>
-      <p>Website: <a href="https://www.vips.edu" target='_blank' className='underline text-blue-700'>www.vips.edu</a></p> 
-    </div>
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
+      <p className='mt-8'><strong>Co-convener:</strong></p>
+      <p><strong>Dr. Navneet Singh</strong> <a href="+91 8877066431">+91 8877066431</a></p>
+      <p className='font-bold'>SCHOOL OF ENGINEERING & TECHNOLOGY</p>
+      <p><strong>Phone:</strong> <a href="+ 91 (11) 27343401/02/03">+ 91 (11) 27343401/02/03</a></p>
+      <p><strong>E-mail:</strong></p>
+      <p><strong>Website:</strong> <a href="https://www.vips.edu" target='_blank' className='underline text-blue-700'>www.vips.edu</a></p> 
+    </div> 
     </>
   )
 }
