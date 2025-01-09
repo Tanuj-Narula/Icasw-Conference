@@ -47,9 +47,9 @@ function Contact() {
     <div className='h-auto text-justify p-10 text-lg'>
       <h1 className="inline font-bold text-2xl bg-[#389336] p-3 rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
       <p className='mt-4'>Co-convener:</p>
-      <p>Dr. Navneet Singh (+91 8877066431)</p>
+      <p>Dr. Navneet Singh <a href="+91 8877066431">+91 8877066431</a></p>
       <p>SCHOOL OF ENGINEERING & TECHNOLOGY</p>
-      <p>Phone: + 91 (11) 27343401/02/03</p>
+      <p>Phone: <a href="+ 91 (11) 27343401/02/03">+ 91 (11) 27343401/02/03</a></p>
       <p>E-mail:</p>
       <p>Website: <a href="https://www.vips.edu" target='_blank' className='underline text-blue-700'>www.vips.edu</a></p> 
     </div>
