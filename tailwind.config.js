@@ -8,6 +8,9 @@ export default {
     extend: {
       boxShadow: {
         'cstm': '0 0 0.5rem rgba(0, 0, 0, 0.3)',
+      },
+      screens: {
+        'xs': '350px',
       }
     },
   },

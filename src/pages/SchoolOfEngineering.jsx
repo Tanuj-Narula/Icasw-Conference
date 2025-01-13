@@ -2,7 +2,7 @@ import React from 'react'
 
 function SchoolOfEngineering() {
   return (
-    <div className='h-auto text-justify px-10 mt-16'>
+    <div className='h-auto sm:text-justify px-10 mt-16'>
       <div>
         <h1 className=" font-bold sm:inline hidden text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About School of Engineering & Technology</h1>
         <h1 className=" font-bold sm:hidden inline text-lg  bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About VSET</h1>

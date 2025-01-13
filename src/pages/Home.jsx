@@ -9,7 +9,7 @@ function Home() {
 
   return (
   
-    <div className="text-justify px-10 mt-16 h-auto">
+    <div className="sm:text-justify px-10 mt-16 h-auto">
         <div>
         <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About Conference</h1>
         <p className="mt-8">

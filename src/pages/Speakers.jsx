@@ -30,49 +30,49 @@ function App() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
        <SpeakerCard
-        img="/david.png"
+        img="/images/david.png"
         name="David Sanderson"
         designation="Professor and Inaugural Judith Neilson Chair"
         company="in Architecture, Faculty of Arts, Design and Architecture"
         location="UNSW Sydney, Australia"
       />
       <SpeakerCard
-        img="/Nibedita.png"
+        img="/images/Nibedita.png"
         name="Prof. Nibedita S. Ray-Bennett FRGS, FHEA"
         designation="Professor of Risk Management"
         company="School of Business 0.26 Teaching Centre"
         location="Brookfield University of Leicester, Leicester"
       />
       <SpeakerCard
-        img="/Deeksha.png"
+        img="/images/Deeksha.png"
         name="Prof. Deeksha Narula"
         designation="University School of Environment"
         company="Management"
         location="GGSIP University, Delhi"
       />
       <SpeakerCard
-        img="/harish.png"
+        img="/images/harish.png"
         name="Prof. Harish Hirani HAG"
         designation="Former Director CSIR"
         company="(CMERI, Durgapur) Dept. of Mech. Engg."
         location="IIT Delhi, ASME Fellow"
       />
       <SpeakerCard
-        img="/pankaj.png"
+        img="/images/pankaj.png"
         name="Dr. Pankaj Thakur"
         designation="Associate Professor"
         company="Special Centre for Nano Science"
         location="JNU, Delhi"
       />
       <SpeakerCard
-        img="/pooja.png"
+        img="/images/pooja.png"
         name="Dr. Pooja Devi"
         designation="Principal Scientist"
         company=""
         location="CSIR (CSIO), Chandigarh"
       />
       <SpeakerCard
-        img="/sujeet.png"
+        img="/images/sujeet.png"
         name="Prof. Sujeet Kumar Sinha"
         designation="(Expertise Biotribology and Viomaterial)"
         company="Dept. of Mechanical Engineering IIT Delhi"

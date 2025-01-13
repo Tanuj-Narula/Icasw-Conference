@@ -4,7 +4,7 @@ import '../App.css'
 function Contact() {
   return (
     <>
-    <div className='h-auto text-justify p-10 mt-14'>
+    <div className='h-auto sm:text-justify p-10 mt-14'>
       <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
         <ul className="list-disc mt-8 w-[100%] ml-3 sm:ml-10">
           <li>Shri S.N. Tripathi, DG IIPA</li>
@@ -23,10 +23,10 @@ function Contact() {
         </ul>
     </div>
     
-    <div className='h-auto text-justify p-10'>
+    <div className='h-auto sm:text-justify p-10'>
       <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Organizing Committee</h1>
       <div className="grid grid-cols-2 mt-8 custom-grid">
-      <div className="grid grid-cols-1 gap-4 mt-4">
+      <div className="grid grid-cols-1 gap-10 sm:gap-4 mt-4">
         <p className='text-lg font-bold'>Chief Patron</p>
         <p className='text-lg font-bold'>Patron</p>
         <p className='text-lg font-bold'>Advisory Chair</p>
@@ -34,7 +34,7 @@ function Contact() {
         <p className='text-lg font-bold'>Co-convener</p>
         <p className='text-lg font-bold'>Organizing Team</p>
       </div>
-      <div className="grid grid-cols-1 gap-4 mt-4">
+      <div className="grid grid-cols-1 gap-10 sm:gap-4 mt-4">
         <p>Dr. S. C. Vats, Founder & Chairman, VIPS-TC</p>
         <p>Shri Vineet Vats, Vice-Chairman, VIPS-TC</p>
         <p>Prof. Amita Dev, Director General, VSE&T and VSIT (VIPS-TC)</p>
