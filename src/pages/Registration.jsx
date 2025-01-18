@@ -8,19 +8,29 @@ function Registration() {
       <div className="grid grid-cols-2 mt-10 custom-grid">
       <div className="grid grid-cols-1 gap-4 mt-4">
         <p className='text-lg font-bold'>Category</p>
-        <p className='text-lg font-bold'>Research Scholar & Student</p>
+        <p className='text-lg font-bold'>Student</p>
+        <p className='text-lg font-bold'>Research Scholar</p>
         <p className='text-lg font-bold'>Faculty Member</p>
+        <p className='text-lg font-bold'>Industry Professional</p>
         <p className='text-lg font-bold'>Registration</p>
       </div>
       <div className="grid grid-cols-1 gap-4 mt-4">
         <p>Registration Fee</p>
-        <p>: 2500</p>
-        <p>: 3000</p>
-        <p>: <a href='' >Google Form URL</a></p>
+        <p>: 2000</p>
+        <p>: 2800</p>
+        <p>: 3300</p>
+        <p>: 5000</p>
+         <a className='text-blue-700 text-decoration-line: underline' href='https://forms.gle/oETcPWCkwrqDvZh97'>Google Form URL</a>
       </div>
       </div>
     </div>
-    <div className='h-auto sm:text-justify mt-20'>
+    <div class="flex flex-col items-center bg-white py-14 rounded-lg w-64">
+  <img src="/images/qr.png" alt="QR" class="w-32 shadow-md shadow-green-700 h-32 object-contain mb-4" />
+  <h3 class="text-lg font-semibold text-green-700">Scan to Register</h3>
+</div>
+
+
+    <div className='h-auto sm:text-justify mt-5'>
       <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Bank details of IIPA</h1>
       <div className="grid grid-cols-2 mt-10 custom-grid">
       <div className="grid grid-cols-1 gap-3 mt-4">
