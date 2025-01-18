@@ -44,11 +44,11 @@ function App() {
         location="Brookfield University of Leicester, Leicester"
       />
       <SpeakerCard
-        img="/images/Deeksha.png"
-        name="Prof. Deeksha Narula"
-        designation="University School of Environment"
-        company="Management"
-        location="GGSIP University, Delhi"
+        img="/images/Prateek.png"
+        name="Prof. Prateek Sharma"
+        designation="Vice – Chancellor"
+        company="Delhi Technological University"
+        location=""
       />
       <SpeakerCard
         img="/images/harish.png"
@@ -65,11 +65,12 @@ function App() {
         location="JNU, Delhi"
       />
       <SpeakerCard
-        img="/images/pooja.png"
-        name="Dr. Pooja Devi"
-        designation="Principal Scientist"
-        company=""
-        location="CSIR (CSIO), Chandigarh"
+        img="/images/Ranu.png"
+        name="Prof. (Dr.) Ranu Gadi"
+        designation="Professor,Dean"
+        company="Dept. of App. Sciences & Humanities,(Industrial Res. & Development and Res.
+& Consultancy)"
+        location="Indira Gandhi Delhi Technical University for Women"
       />
       <SpeakerCard
         img="/images/sujeet.png"

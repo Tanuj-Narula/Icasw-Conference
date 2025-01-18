@@ -45,14 +45,29 @@ function Contact() {
       </div>
     </div>
     <div className='h-auto text-justify p-10 text-lg'>
-      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
-      <p className='mt-8'><strong>Co-convener:</strong></p>
+  <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
+  
+  <div className="mt-8 flex flex-col lg:flex-row gap-8">
+    <div className="flex-1">
+      <p><strong>Co-convener:</strong></p>
       <p><strong>Dr. Navneet Singh</strong> <a href="+91 8877066431">+91 8877066431</a></p>
       <p className='font-bold'>SCHOOL OF ENGINEERING & TECHNOLOGY</p>
       <p><strong>Phone:</strong> <a href="+ 91 (11) 27343401/02/03">+ 91 (11) 27343401/02/03</a></p>
-      <p><strong>E-mail:</strong></p>
-      <p><strong>Website:</strong> <a href="https://www.vips.edu" target='_blank' className='underline text-blue-700'>www.vips.edu</a></p> 
-    </div> 
+      <p><strong>E-mail: </strong><a className='text-blue-700 text-decoration-line: underline' href="icasw.conference2025@vips.edu">icasw.conference2025@vips.edu</a></p>
+      <p><strong>Website:</strong> <a href="https://icasw-conference.vercel.app/" className='text-blue-700 text-decoration-line: underline'>https://icasw-conference.vercel.app/</a></p>
+    </div>
+
+    <div className="flex-1">
+      <p><strong>Co-convener:</strong></p>
+      <p><strong>Dr. Kanishka Sharma</strong> <a href="+91 9999808901">+91 9999808901</a></p>
+      <p className='font-bold'>Indian Institute of Public Administration</p>
+      <p><strong>Phone:</strong> <a href="+ 91 (11) 2346 8378">+ 91 (11) 2346 8378</a></p>
+      <p><strong>E-mail: </strong><a className='text-blue-700 text-decoration-line: underline' href="icasw.conference2025@vips.edu">icasw.conference2025@vips.edu</a></p>
+      <p><strong>Website:</strong> <a href="https://icasw-conference.vercel.app/" className='text-blue-700 text-decoration-line: underline'>https://icasw-conference.vercel.app/</a></p>
+    </div>
+  </div>
+</div>
+ 
     </>
   )
 }

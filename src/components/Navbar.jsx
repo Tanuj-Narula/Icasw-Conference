@@ -86,8 +86,12 @@ function Navbar() {
             Home
           </NavLink></li>
           <li><NavLink onClick={toggleMenu} to="/school-of-engineering" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
+            `block py-4 pr-4 sm:inline pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
             School of Engineering & Technology
+          </NavLink></li>
+          <li><NavLink onClick={toggleMenu} to="/school-of-engineering" className={({ isActive }) => 
+            `block py-4 pr-4 sm:hidden pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
+            VSE&T
           </NavLink></li>
           <li><NavLink onClick={toggleMenu} to="/iipa" className={({ isActive }) => 
             `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
