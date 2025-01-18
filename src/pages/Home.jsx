@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function Home() {
 
   const handleClick = () => {
-    alert("Registration is not open yet");
+    window.location.href = "./registration";
   };
 
 

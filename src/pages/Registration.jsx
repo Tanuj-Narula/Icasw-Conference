@@ -20,7 +20,7 @@ function Registration() {
         <p>: 2800</p>
         <p>: 3300</p>
         <p>: 5000</p>
-         <a className='text-blue-700 text-decoration-line: underline' href='https://forms.gle/oETcPWCkwrqDvZh97'>Google Form URL</a>
+         <a className='text-blue-700 text-decoration-line: underline' href='https://forms.gle/oETcPWCkwrqDvZh97' target='_blanck'>Google Form URL</a>
       </div>
       </div>
     </div>
