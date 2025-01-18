@@ -5,8 +5,8 @@ function Registration() {
     <div className='h-auto sm:text-justify p-10 mt-10'>
     <div>
       <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Registration Details</h1>
-      <div className="grid grid-cols-2 mt-10 custom-grid">
-      <div className="grid grid-cols-1 gap-4 mt-4">
+      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
+      <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
         <p className='text-lg font-bold'>Category</p>
         <p className='text-lg font-bold'>Student</p>
         <p className='text-lg font-bold'>Research Scholar</p>
@@ -14,13 +14,13 @@ function Registration() {
         <p className='text-lg font-bold'>Industry Professional</p>
         <p className='text-lg font-bold'>Registration</p>
       </div>
-      <div className="grid grid-cols-1 gap-4 mt-4">
+      <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4 ">
         <p>Registration Fee</p>
         <p>: 2000</p>
         <p>: 2800</p>
         <p>: 3300</p>
         <p>: 5000</p>
-         <a className='text-blue-700 text-decoration-line: underline' href='https://forms.gle/oETcPWCkwrqDvZh97' target='_blanck'>Google Form URL</a>
+        <p><a className='text-blue-700 text-decoration-line: underline' href='https://forms.gle/oETcPWCkwrqDvZh97' target='_blanck'>Google Form URL</a></p>
       </div>
       </div>
     </div>
