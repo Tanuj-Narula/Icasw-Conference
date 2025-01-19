@@ -30,11 +30,11 @@ function Carousel() {
           </div>
         ))}
       </div>
-      <div className="absolute bottom-8 w-full justify-center flex space-x-2">
+      <div className="absolute bottom-4 sm:bottom-8 w-full justify-center flex space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-4 h-4 rounded-full ${active === index ? 'bg-gray-950' : 'bg-gray-600'}`}
+            className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full ${active === index ? 'bg-gray-950' : 'bg-gray-600'}`}
             onClick={() => handleDotClick(index)}
           ></button>
         ))}
