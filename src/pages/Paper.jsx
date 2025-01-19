@@ -84,7 +84,29 @@ function paper() {
             Sage publications (Scopus Indexed) Special Issue (proposed)
           </li>
         </ul>
+        <div className="pt-16">
+        <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Important Dates</h1>
+      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
+      <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
+        <p className='text-lg sm:text-base font-bold'>Call for Paper Open</p>
+        <p className='text-lg font-bold'>Submission Deadline</p>
+        <p className='text-lg font-bold'>Acceptance Notification</p>
+        <p className='text-lg font-bold'>Registration Deadline</p>
+        <p className='text-lg font-bold'>Conference Date</p>
+        <p className='text-lg font-bold'></p>
       </div>
+      <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4 ">
+        <p>: 14 Jan., 2025</p>
+        <p>: 10 Feb., 2025</p>
+        <p>: 15 Feb., 2025</p>
+        <p>: 20 Feb., 2025</p> 
+        <p>: 19 Mar., 2025 (IIPA Campus) </p>
+        <p>  20 Mar., 2025 (VIPS-TC Campus)</p>
+       </div>
+       </div>
+      </div>
+      </div>
+    
     </>
   );
 }
