@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '/src/navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 import './Marquee.css';
+import VantaBirdsBackground from './VantaBirdsBackground';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,15 +12,18 @@ function Navbar() {
   };
 
   return (
-    <div className='w-full h-auto'>
-      <div className='flex py-2 justify-between items-center w-full bg-[#e3f0e0] px-4'>
+    <div className='w-full  h-auto'>
+        <div className="-z-10 absolute top-0 left-0 sm:h-[150px] h-[50px] w-full">
+          <VantaBirdsBackground />
+        </div>
+      <div className='flex z-10 relative py-2 justify-between items-center bg-transparent w-full  px-4'>
         <Link to="/">
           <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:ml-4 m-0.2 sm:mx-3 sm:h-28" />
         </Link>
         <div className='text-center text-xl'>
-          <h1 className='text-2xl font-bold text-green-800 sm:text-5xl'>ICASW Conference 2025</h1>
-          <p className='text-sm sm:text-lg hidden font-semibold text-green-900 sm:block'>Integrating Climate Action, AI, SDGs, and Water Management</p>
-          <p className='text-sm sm:text-lg hidden font-semibold text-green-900 sm:block'>19th - 20th March, 2025</p>
+          <h1 className='text-2xl font-bold  sm:text-5xl'>ICASW Conference 2025</h1>
+          <p className='text-sm sm:text-lg hidden font-semibold sm:block'>Integrating Climate Action, AI, SDGs, and Water Management</p>
+          <p className='text-sm sm:text-lg hidden font-semibold sm:block'>19th - 20th March, 2025</p>
         </div>
         <img src="/images/iipa.png" alt="" className='h-20 sm:h-28 hidden sm:block mr-4' />
         
