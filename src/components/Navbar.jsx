@@ -24,16 +24,18 @@ function Navbar() {
 
       <div className="flex z-10 relative py-2 justify-between items-center bg-transparent w-full px-4">
         <Link to="/">
-          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-4 mx-2" />
+          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-2 mx-2" />
         </Link>
 
         <div className="text-center text-xl">
-          <h1 className="text-2xl font-bold sm:text-5xl">ICASW Conference 2025</h1>
+          <h1 className="text-5xl font-bold hidden sm:block">ICASW Conference 2025</h1> 
+          <h1 className="text-2xl font-bold block sm:hidden">ICASW </h1>
+          <h1 className="text-base font-bold block sm:hidden">Conference </h1>
           <p className="text-sm sm:text-lg font-semibold hidden sm:block">Integrating Climate Action, AI, SDGs, and Water Management</p>
           <p className="text-sm sm:text-lg font-semibold hidden sm:block">19th - 20th March, 2025</p>
         </div>
 
-        <img src="/images/iipa.png" alt="IIPA" className="h-20 sm:h-28 hidden sm:block mr-4" />
+        <img src="/images/iipa.png" alt="IIPA" className="h-20 sm:h-28 block sm:mr-2 mr-4" />
         
         <button className="sm:hidden text-2xl" onClick={toggleMenu}>
           {isMenuOpen ? '×' : '≡'}
@@ -100,6 +102,7 @@ function Navbar() {
             <button
               onClick={toggleDropdown} 
               onMouseEnter={openDropdown} 
+              
               className="block py-4 px-4 font-bold text-base text-black hover:text-yellow-400"
             >
               Committee
