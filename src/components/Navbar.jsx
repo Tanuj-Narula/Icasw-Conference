@@ -6,76 +6,181 @@ import VantaBirdsBackground from './VantaBirdsBackground';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen((prev) => !prev);
   };
 
+  const toggleDropdown = () => setIsOpen((prev) => !prev);
+  const openDropdown = () => setIsOpen(true);
+  const closeDropdown = () => setIsOpen(false);
+
   return (
-    <div className='w-full  h-auto'>
-        <div className="-z-10 absolute top-0 left-0 sm:h-[150px] h-[50px] w-full">
-          <VantaBirdsBackground />
-        </div>
-      <div className='flex z-10 relative py-2 justify-between items-center bg-transparent w-full  px-4'>
+    <div className="w-full h-auto">
+      <div className="-z-10 absolute top-0 left-0 sm:h-[150px] h-[50px] w-full">
+        <VantaBirdsBackground />
+      </div>
+
+      <div className="flex z-10 relative py-2 justify-between items-center bg-transparent w-full px-4">
         <Link to="/">
-          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:ml-4 m-0.2 sm:mx-3 sm:h-28" />
+          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-4 mx-2" />
         </Link>
-        <div className='text-center text-xl'>
-          <h1 className='text-2xl font-bold  sm:text-5xl'>ICASW Conference 2025</h1>
-          <p className='text-sm sm:text-lg hidden font-semibold sm:block'>Integrating Climate Action, AI, SDGs, and Water Management</p>
-          <p className='text-sm sm:text-lg hidden font-semibold sm:block'>19th - 20th March, 2025</p>
+
+        <div className="text-center text-xl">
+          <h1 className="text-2xl font-bold sm:text-5xl">ICASW Conference 2025</h1>
+          <p className="text-sm sm:text-lg font-semibold hidden sm:block">Integrating Climate Action, AI, SDGs, and Water Management</p>
+          <p className="text-sm sm:text-lg font-semibold hidden sm:block">19th - 20th March, 2025</p>
         </div>
-        <img src="/images/iipa.png" alt="" className='h-20 sm:h-28 hidden sm:block mr-4' />
+
+        <img src="/images/iipa.png" alt="IIPA" className="h-20 sm:h-28 hidden sm:block mr-4" />
         
-        <button 
-          className="sm:hidden text-2xl" 
-          onClick={toggleMenu}
-        >
+        <button className="sm:hidden text-2xl" onClick={toggleMenu}>
           {isMenuOpen ? '×' : '≡'}
         </button>
       </div>
 
       <div className="marquee-text">
-  <span>
-    Welcome to ICASW Conference 2025! . . . . . . . . . . . . . .  Registration is Now OPEN! . . . . . . . . . . . . . .  Register NOW!
-  </span>
-</div>
-
+        <span>
+          Welcome to ICASW Conference 2025! . . . . . . . . . . . . . . Registration is Now OPEN! . . . . . . . . . . . . . . Register NOW!
+        </span>
+      </div>
 
       <div className={`sm:bg-[#4e9f4c] sm:shadow-md sm:border-none border-y-2 border-black shadow-green-900 sm:p-2 ${isMenuOpen ? 'block' : 'hidden'} sm:block`}>
-        <ul className='flex sm:flex-row flex-col items-center sm:justify-around pages'>
-        <li><NavLink onClick={toggleMenu} to="/" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Home
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/school-of-engineering" className={({ isActive }) => 
-            `block py-4 pr-4 sm:inline pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
+        <ul className="flex sm:flex-row flex-col items-center sm:justify-around">
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+          <NavLink
+            to="/school-of-engineering"
+            onClick={toggleMenu}
+            className={({ isActive }) => (
+              `block py-4 px-4 sm:inline font-bold text-base 
+              ${isActive ? 'text-yellow-300' : 'text-black'} 
+              hover:text-yellow-400`
+            )}
+          >
             School of Engineering & Technology
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/iipa" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            IIPA
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu}  to="/agenda" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Agenda
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/paper" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Paper details
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/registration" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Registration details
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/speakers" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Speakers
-          </NavLink></li>
-          <li><NavLink onClick={toggleMenu} to="/contact" className={({ isActive }) => 
-            `block py-4 pr-4 pl-3 duration-200 font-bold text-base ${isActive ? "text-yellow-300" : "text-black"} hover:text-yellow-400 lg:p-0`}>
-            Contact
-          </NavLink></li>
+          </NavLink>
+        </li>
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/iipa"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              IIPA
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/agenda"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Agenda
+            </NavLink>
+          </li>
+         
+
+          <li className="relative">
+            <button
+              onClick={toggleDropdown} 
+              onMouseEnter={openDropdown} 
+              className="block py-4 px-4 font-bold text-base text-black hover:text-yellow-400"
+            >
+              Committee
+            </button>
+
+            {isOpen && (
+              <ul
+                onMouseLeave={closeDropdown}
+                className="absolute left-0 sm:left-auto max-w-[calc(100vw-2rem)] bg-white shadow-lg p-1 rounded-md sm:w-auto w-48"
+              >
+                <li className="group relative">
+                  <NavLink
+                    to="/organizing"
+                    className={({ isActive }) =>
+                      `block py-4 px-6 font-semibold text-gray-800 rounded-md transition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-100'}`
+                    }
+                    onClick={toggleDropdown}
+                  >
+                    Organizing Committee
+                  </NavLink>
+                </li>
+                <li className="group relative">
+                  <NavLink
+                    to="/advisory"
+                    className={({ isActive }) =>
+                      `block py-4 px-6 font-semibold text-gray-800 rounded-mdt ransition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-100'}`
+                    }
+                    onClick={toggleDropdown}
+                  >
+                   Advisory Committee
+                  </NavLink>
+                </li>
+                <li className="group relative">
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      `block py-4 px-6 font-semibold text-gray-800 rounded-mdt ransition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-100'}`
+                    }
+                    onClick={toggleDropdown}
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            )}
+          </li>
+ <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/speakers"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Speakers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/paper"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Paper Details
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/registration"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Registration Details
+            </NavLink>
+          </li>
+
+         
         </ul>
       </div>
     </div>

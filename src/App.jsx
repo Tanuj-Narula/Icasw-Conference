@@ -5,10 +5,12 @@ import IIPA from './pages/IIPA';
 import Agenda from './pages/Agenda';
 import Registration from './pages/Registration';
 import Speakers from './pages/Speakers';
-import Contact from './pages/Contact';
+import Advisory from './pages/advisroy';
+import Organizing from './pages/organizing';
 import Paper from './pages/Paper';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/paper" element={<Paper/>} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/speakers" element={<Speakers />} />
+        <Route path="/advisory" element={<Advisory />} />
+        <Route path="/organizing" element={<Organizing />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

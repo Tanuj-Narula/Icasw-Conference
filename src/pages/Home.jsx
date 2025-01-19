@@ -9,11 +9,11 @@ function Home() {
 
   return (
   
-    <div className="sm:text-justify px-10 mt-16 h-auto">
+    <div className="sm:text-justify px-10 mt-16 h-auto ">
         <div>
-        <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About Conference</h1>
+        <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-4 text-black rounded-tl-3xl rounded-br-3xl">About Conference</h1>
         <img src="/images/iipab.jpg" alt="IIPA"></img>
-          <p className="mt-8">
+          <p className="mt-6">
             The Indian Institute of Public Administration (IIPA), in collaboration
             with Vivekananda Institute of Professional Studies - Technical Campus
             (VIPS-TC), is hosting the upcoming International Conference on
@@ -50,8 +50,8 @@ function Home() {
         </div>
     
         <div className="mt-16">
-            <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Conference Tracks</h1>
-            <ol className="mt-8 list-decimal list-inside">
+            <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xlinline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-4 text-black rounded-tl-3xl rounded-br-3xl">Conference Tracks</h1>
+            <ol className="pt-10 text-md list-decimal list-inside">
                 <li>Mitigation and Adaptation Strategies for Climate Change in India.</li>
                 <li>Integration of Sustainable Development Goals (SDGs) in Climate Action Plan.</li>
                 <li> Harnessing Artificial Intelligence for Climate Resilience in Water Management.</li>

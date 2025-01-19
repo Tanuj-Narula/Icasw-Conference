@@ -43,7 +43,9 @@ function SchoolOfEngineering() {
           </p>
         </div>
       </div>
+      
     </div>
+    
   )
 }
 
