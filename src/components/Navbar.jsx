@@ -21,7 +21,7 @@ function Navbar() {
           <p className='text-sm sm:text-lg hidden font-semibold text-green-900 sm:block'>Integrating Climate Action, AI, SDGs, and Water Management</p>
           <p className='text-sm sm:text-lg hidden font-semibold text-green-900 sm:block'>19th - 20th March, 2025</p>
         </div>
-        <img src="/images/iipa.png" alt="" className='h-20 sm:h-28 hidden sm:block mr-4' />
+        <img src="/images/ipa.png" alt="" className='h-20 sm:h-28 hidden sm:block mr-4' />
         
         <button 
           className="sm:hidden text-2xl" 
