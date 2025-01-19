@@ -12,7 +12,7 @@ function Home() {
     <div className="sm:text-justify px-10 mt-16 h-auto">
         <div>
         <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About Conference</h1>
-        <img src="iipab.jpg" alt="IIPA"></img>
+        <img src="/images/iipab.jpg" alt="IIPA"></img>
           <p className="mt-8">
             The Indian Institute of Public Administration (IIPA), in collaboration
             with Vivekananda Institute of Professional Studies - Technical Campus
@@ -22,7 +22,7 @@ function Home() {
             transformative platform aimed at fostering interdisciplinary
             collaboration.
         </p>
-        <img src="vipsb.jpg" alt="vips"></img>
+        <img src="/images/vipsb.jpg" alt="vips"></img>
         <p className="mt-3">
             With the global challenges posed by climate change, water scarcity, and
             environmental degradation, the International Conference will bring
