@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Carousel from "../components/Carousel";
 
 function Home() {
 
@@ -8,11 +9,11 @@ function Home() {
 
 
   return (
-  
-    <div className="sm:text-justify px-10 mt-16 h-auto">
+   <>
+    <Carousel/>
+    <div className="sm:text-justify px-10 mt-10 h-auto">
         <div>
         <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">About Conference</h1>
-        <img src="/images/iipab.jpg" alt="IIPA"></img>
           <p className="mt-8">
             The Indian Institute of Public Administration (IIPA), in collaboration
             with Vivekananda Institute of Professional Studies - Technical Campus
@@ -22,7 +23,6 @@ function Home() {
             transformative platform aimed at fostering interdisciplinary
             collaboration.
         </p>
-        <img src="/images/vipsb.jpg" alt="vips"></img>
         <p className="mt-3">
             With the global challenges posed by climate change, water scarcity, and
             environmental degradation, the International Conference will bring
@@ -72,6 +72,7 @@ function Home() {
         <button className="border border-black p-4 rounded-lg bg-[#e3f0e0] hover:scale-110" onClick={handleClick}>Register Now</button>
         </div>
     </div>
+    </>
   );
 }
 
