@@ -11,7 +11,7 @@ function Advisory() {
           <li className='mt-1'>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
           <li className='mt-1'>Professor Nibedita S. Ray-Bennett FRGS, FHEAProfessor of Risk Management Founder & President, Avoidable Deaths NetworkInterim Associate Director & Research Challenge Leader, Institute for Environmental FuturesMarketing and Strategy, School of Business0.26 Teaching Centre, BrookfieldUniversity of Leicester, Leicester</li>
           <li className='mt-1'>Prof. C. K. Varshney, Professor Emeritus, JNU</li>
-          <l>Dr. Sachidananda Satapathy, Ex-Director Climate Change, MOEFCC</l>
+          <li className='mt-1'>Dr. Sachidananda Satapathy, Ex-Director Climate Change, MOEFCC</li>
           <li className='mt-1'> Mr. Ashish Jain, IPCA Director</li>
           <li className='mt-1'>Prof. J. S. Kamyotra, CPCB</li>
           <li className='mt-1'> Prof. Gulshan Dhamija, COE, GGSIPU, Delhi</li>
@@ -19,12 +19,13 @@ function Advisory() {
           <li className='mt-1'>Dr. Pankaj Kumar Singh, Director DSEU (Wazirpur Campus)</li>
           <li className='mt-1'>Prof. Rajeev Chaudhary, HOD, Mechanical Engineering, Delhi Technological University</li>
           <li className='mt-1'>Prof. Ranu Gadi, Professor (Chemistry), Dean (Research & Development Cell and Res. & Consultancy), Director (Anveshan Foundation), IGDTW, Delhi</li>
-          <li>Prof. S.G. Warkar, Dean Student Welfare, Delhi Technological University, Delhi</li>
+          <li className='mt-1'>Prof. S.G. Warkar, Dean Student Welfare, Delhi Technological University, Delhi</li>
+          <li className='mt-1'>Dr.Prosun Bhattacharya, Professor of Ground Water Chemistry, KTH Royal Institute of Technology, Stockholm Sweden</li>
         </ul>  
 </div>
  
     </>
-  )
+  ) 
 }
 
 export default Advisory

@@ -79,6 +79,13 @@ function App() {
         company="Dept. of Mechanical Engineering IIT Delhi"
         location="Former Faculty NUS Singapore"
       />
+        <SpeakerCard
+        img="/images/Prosun.png"
+        name="Dr. Prosun Bhattacharya"
+        designation="Professor of Groundwater Chemistry"
+        company="Dept. of Sustainable Development, Environmental Science and Engineering"
+        location="KTH Royal Institute of Technology, Stockholm, Sweden"
+      />
     </div>
   );
 }
