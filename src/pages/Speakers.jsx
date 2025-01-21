@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
        <SpeakerCard
-        img="/images/david.png"
+        img="/images/David.png"
         name="David Sanderson"
         designation="Professor and Inaugural Judith Neilson Chair"
         company="in Architecture, Faculty of Arts, Design and Architecture"
@@ -26,14 +26,14 @@ function App() {
         location=""
       />
       <SpeakerCard
-        img="/images/harish.png"
+        img="/images/Harish.png"
         name="Prof. Harish Hirani HAG"
         designation="Former Director CSIR"
         company="(CMERI, Durgapur) Dept. of Mech. Engg."
         location="IIT Delhi, ASME Fellow"
       />
       <SpeakerCard
-        img="/images/pankaj.png"
+        img="/images/Pankaj.png"
         name="Dr. Pankaj Thakur"
         designation="Associate Professor"
         company="Special Centre for Nano Science"
@@ -48,11 +48,18 @@ function App() {
         location="Indira Gandhi Delhi Technical University for Women"
       />
       <SpeakerCard
-        img="/images/sujeet.png"
+        img="/images/Sujeet.png"
         name="Prof. Sujeet Kumar Sinha"
         designation="Expertise Biotribology and Viomaterial"
         company="Dept. of Mechanical Engineering IIT Delhi"
         location="Former Faculty NUS Singapore"
+      />
+      <SpeakerCard
+        img="/images/Prosun.png"
+        name="Prof. Prosun Bhattacharya"
+        designation="Professor of Groundwater Chemistry"
+        company="Dept. of Sustainable Development, Environmental Science and Engineering"
+        location="KTH Royal Institute of Technology, Stockholm, Sweden"
       />
     </div>
   );

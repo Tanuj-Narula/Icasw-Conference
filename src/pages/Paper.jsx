@@ -20,7 +20,7 @@ function paper() {
             research, objectives, methodology, results, and conclusions.
           </li>
           <li className="sm:text-lg text-base mb-4">
-            <strong>Keywords:</strong> 4-3 keywords relevant to the paper.
+            <strong>Keywords:</strong> 5-4 keywords relevant to the paper.
           </li>
           <li className="sm:text-lg text-base mb-4">
             <strong>Main Content:</strong> Should typically include:
