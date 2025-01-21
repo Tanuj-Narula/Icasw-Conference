@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
        <SpeakerCard
-        img="/images/David.png"
+        img="/images/david.png"
         name="David Sanderson"
         designation="Professor and Inaugural Judith Neilson Chair"
         company="in Architecture, Faculty of Arts, Design and Architecture"
@@ -26,14 +26,21 @@ function App() {
         location=""
       />
       <SpeakerCard
-        img="/images/Harish.png"
+        img="/images/harish.png"
         name="Prof. Harish Hirani HAG"
         designation="Former Director CSIR"
         company="(CMERI, Durgapur) Dept. of Mech. Engg."
         location="IIT Delhi, ASME Fellow"
       />
       <SpeakerCard
-        img="/images/Pankaj.png"
+        img="/images/Prosun.png"
+        name="Prof. Prosun Bhattacharya"
+        designation="Professor of Groundwater Chemistry"
+        company="Dept. of Sustainable Development, Environmental Science and Engineering"
+        location="KTH Royal Institute of Technology, Stockholm, Sweden"
+      />
+      <SpeakerCard
+        img="/images/pankaj.png"
         name="Dr. Pankaj Thakur"
         designation="Associate Professor"
         company="Special Centre for Nano Science"
@@ -43,23 +50,15 @@ function App() {
         img="/images/Ranu.png"
         name="Prof. (Dr.) Ranu Gadi"
         designation="Professor,Dean"
-        company="Dept. of App. Sciences & Humanities,(Industrial Res. & Development and Res.
-& Consultancy)"
+        company="Dept. of App. Sciences & Humanities,(Industrial Res. & Development and Res. & Consultancy)"
         location="Indira Gandhi Delhi Technical University for Women"
       />
       <SpeakerCard
-        img="/images/Sujeet.png"
+        img="/images/sujeet.png"
         name="Prof. Sujeet Kumar Sinha"
         designation="Expertise Biotribology and Viomaterial"
         company="Dept. of Mechanical Engineering IIT Delhi"
         location="Former Faculty NUS Singapore"
-      />
-      <SpeakerCard
-        img="/images/Prosun.png"
-        name="Prof. Prosun Bhattacharya"
-        designation="Professor of Groundwater Chemistry"
-        company="Dept. of Sustainable Development, Environmental Science and Engineering"
-        location="KTH Royal Institute of Technology, Stockholm, Sweden"
       />
     </div>
   );

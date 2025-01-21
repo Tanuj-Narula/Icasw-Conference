@@ -49,7 +49,7 @@ function Organizing() {
         <tr>
           <td className="sm:text-lg font-semibold border border-black p-4">Conveners</td>
           <td className="border border-black p-4 font-semibold">Prof. Vinod K. Sharma, Senior Professor, IIPA<br/>Dr. Shyamli Singh 
-          Faculty and Coordinator ( Centre for environment and climate change)<br/> Indian Institute of Public Administration</td>
+          Faculty and Coordinator ( Centre for environment and climate change),<br/> Indian Institute of Public Administration</td>
           <td className="border border-black p-4 font-semibold">Prof. Nidhi Sharma, Dean, Applied Sciences & Humanities, VSE&T (VIPS-TC)</td>
         </tr>
         <tr>
