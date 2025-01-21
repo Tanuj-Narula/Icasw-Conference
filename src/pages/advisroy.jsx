@@ -5,7 +5,7 @@ function Advisory() {
   return (
     <>
     <div className='h-auto sm:text-justify p-10 pt-16 '>
-      <h1 className="inline font-bold  text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-4 text-black rounded-tl-3xl rounded-br-3xl">Advisory Committee</h1>
+      <h1 className="inline font-bold  text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black ">Advisory Committee</h1>
         <ul className="list-disc pt-5 mt-8 w-[95%] ml-3 sm:ml-10">
           <li className='mt-1'>Shri S.N. Tripathi, DG IIPA</li>
           <li className='mt-1'>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>

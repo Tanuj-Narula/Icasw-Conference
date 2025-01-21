@@ -4,7 +4,7 @@ function paper() {
   return (
     <>
       <div className="h-auto sm:text-justify p-10 mt-16">
-        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">
+        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
           Paper Submission Guidlines
         </h1>
         <ul className="list-disc mt-6 list-inside w-[90%] ml-2 sm:ml10">
@@ -54,7 +54,7 @@ function paper() {
         </ul>
       </div>
       <div className="h-auto sm:text-justify p-10 mt-2">
-        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">
+        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
             Paper Submission Details
         </h1>
         <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
@@ -73,7 +73,7 @@ function paper() {
         </ul>
       </div>
       <div className="h-auto sm:text-justify p-10 mt-2">
-        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">
+        <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
         Publication
         </h1>
         <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
@@ -85,7 +85,7 @@ function paper() {
           </li>
         </ul>
         <div className="pt-16">
-        <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Important Dates</h1>
+        <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Important Dates</h1>
       <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
       <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
         <p className='text-lg sm:text-base font-bold'>Call for Paper Open</p>

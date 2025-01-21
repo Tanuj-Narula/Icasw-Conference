@@ -6,7 +6,7 @@ function Contact() {
     <>
   
     <div className='h-auto pt-16 sm:text-justify p-10 sm:text-lg'>
-      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-4 text-black rounded-tl-3xl rounded-br-3xl">Contact Information</h1>
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black ">Contact Information</h1>
   
     <div className="mt-8 pt-6 flex flex-col lg:flex-row gap-8">
     <div className="flex-1">

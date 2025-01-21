@@ -22,7 +22,7 @@ function Carousel() {
   }
 
   return (
-    <div className="carousel relative w-full  h-[20vh] sm:h-[60vh] bg-slate-50">
+    <div className="carousel relative w-full  h-[20vh] sm:h-[60vh] shadow-[0px_5px_12px_#000000a5] bg-slate-50">
       <div className="carousel-inner">
         {images.map((src, index) => (
           <div key={index} className={`carousel-item absolute inset-0 transition-opacity duration-700 ease-in ${active === index ? 'opacity-100 ' : 'opacity-0 '}`} >
