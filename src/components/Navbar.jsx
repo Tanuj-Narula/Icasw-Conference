@@ -127,6 +127,17 @@ function Navbar() {
                 </li>
                 <li className="group relative">
                   <NavLink
+                    to="/Committee/patrons"
+                    className={({ isActive }) =>
+                      `block py-4 px-6 font-semibold text-gray-800 rounded-md transition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-200'}`
+                    }
+                    onClick={toggleMenu}
+                  >
+                    Our Patrons
+                  </NavLink>
+                </li>
+                <li className="group relative">
+                  <NavLink
                     to="/Committee/advisory Committee"
                     className={({ isActive }) =>
                       `block py-4 px-6 font-semibold text-gray-800 rounded-md transition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-200'}`
@@ -134,6 +145,17 @@ function Navbar() {
                     onClick={()=>{toggleDropdown(); toggleMenu();}}
                   >
                    Advisory Committee
+                  </NavLink>
+                </li>
+                <li className="group relative">
+                  <NavLink
+                    to="/Committee/reviewers"
+                    className={({ isActive }) =>
+                      `block py-4 px-6 font-semibold text-gray-800 rounded-md transition-all duration-200 ${isActive ? 'bg-green-200 text-green-800' : 'hover:bg-gray-200'}`
+                    }
+                    onClick={toggleMenu}
+                  >
+                    Reviewers
                   </NavLink>
                 </li>
                 <li className="group relative">
