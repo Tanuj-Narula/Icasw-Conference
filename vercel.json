@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/ic-icasw2025/index.html"
+      "destination": "/index.html"
     }
   ],
   "redirects": [
