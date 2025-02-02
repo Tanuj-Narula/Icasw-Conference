@@ -4,6 +4,13 @@
         "source": "/(.*)",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "redirects": [
+    {
+      "source": "/",
+      "destination": "/ic-icasw2025",
+      "permanent": true
+    }
+  ]
 }
   
