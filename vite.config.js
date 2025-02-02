@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // base: process.env.NODE_ENV === "production" ? "/ic-icasw2025/" : "/"
-  base: "/ic-icasw2025"
+  // base: "/ic-icasw2025"
 })
