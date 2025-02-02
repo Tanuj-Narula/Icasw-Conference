@@ -25,7 +25,7 @@ function Navbar() {
 
       <div className="flex z-10 relative py-2 justify-between items-center bg-transparent w-full px-4">
         <Link to="/">
-          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-2 mx-2" />
+          <img src="/ic-icasw2025/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-2 mx-2" />
         </Link>
 
         <div className="text-center text-xl">
@@ -36,7 +36,7 @@ function Navbar() {
           <p className="text-sm sm:text-lg font-semibold hidden sm:block">19th - 20th March, 2025</p>
         </div>
 
-        <img src="/images/iipa.png" alt="IIPA" className="h-16 sm:h-28 block sm:mr-2 mr-4" />
+        <img src="/ic-icasw2025/images/iipa.png" alt="IIPA" className="h-16 sm:h-28 block sm:mr-2 mr-4" />
         
         <button className="sm:hidden text-2xl" onClick={toggleMenu}>
           {isMenuOpen ? '×' : '≡'}

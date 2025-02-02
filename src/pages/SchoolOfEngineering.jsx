@@ -4,7 +4,7 @@ function SchoolOfEngineering() {
   return (
     <div className='h-auto sm:text-justify px-10 mt-5'>
       <div>
-        <img src='/images/vipsbg.jpg' alt='vips-tc' className='h-[60vh] rounded-sm w-full mb-8 shadow-[0px_5px_12px_#000000a5]' />
+        <img src='/ic-icasw2025/images/vipsbg.jpg' alt='vips-tc' className='h-[60vh] rounded-sm w-full mb-8 shadow-[0px_5px_12px_#000000a5]' />
         <h1 className=" font-bold sm:inline hidden text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black">About School of Engineering & Technology</h1>
         <h1 className=" font-bold sm:hidden inline text-lg  bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black ">About VSET</h1>
         <p  className="mt-8 "><b>VIPC-TC, School of Engineering & Technology</b>, has a state-of-the-art campus dedicated to impart knowledge and experience that are essential for leading the future of engineering. It aims to create a generation of engineers who are equipped with the right mindset and skillset to shape and build a stronger society. Backed by the two-decade-long and profound legacy of Vivekananda Institute of Professional Studies-Technical Campus, School of Engineering & Technology, is now en-route to prepare young minds to lead and innovate Industry 4.0. The school focuses on promoting a student-centered approach with a blended learning curriculum. The curriculum is curated to develop a deep understanding of how things function and find practical solutions by applying the learned theories and scientific processes with hands-on exposure.</p>
