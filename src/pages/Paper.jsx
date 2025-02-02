@@ -68,12 +68,10 @@ function paper() {
               <li>Only papers passing both organizer and publisher review will be included.</li>
             </ul>
           </li>
-          <li>
-            <strong>Publication:</strong>
-            <ul className="list-disc list-inside ml-5 space-y-2">
-              <li>Proposed Springer proceedings with ISBN number.</li>
-              <li>Accepted papers will be published in the IIPA conference proceedings.</li>
-            </ul>
+          
+          <li className="sm:text-lg text-base mb-4">
+            <strong>Author Participation:</strong> For papers with multiple authors, at least one author must register and present the
+            paper to receive a presentation/publication certificate.
           </li>
           <li><strong>Author Participation:</strong> At least one author must register and present the paper to receive certification.</li>
         </ul>
@@ -82,12 +80,18 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
         Publication
         </h1>
-        <ul className="list-disc mt-8 w-[90%] ml-5 sm:ml10">
-          <li className="sm:text-lg text-base mb-4">
-            Papers will be published in the conference proceedings of IIPA with an ISBN.
+        <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
+        <li className="sm:text-lg text-base mb-4">
+            Accepted Paper after rigorous review process will be published in:
           </li>
           <li className="sm:text-lg text-base mb-4">
-            Proposed Springer proceedings with ISBN No.
+            1. <strong>Springer Proceedings (Proposed)</strong> with Scopus Indexing
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            2. <strong>Sage Publications (Special Issue)</strong> - Scopus Indexed
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            3. <strong>IIPA Conference Proceedings</strong> with ISBN Number
           </li>
         </ul>
         <div className="pt-16">
