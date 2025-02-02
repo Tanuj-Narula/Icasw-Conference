@@ -8,7 +8,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/ic-icasw2025/",
+      "destination": "/ic-icasw2025/home",
       "permanent": true
     }
   ]
