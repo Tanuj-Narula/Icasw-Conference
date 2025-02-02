@@ -62,10 +62,7 @@ function paper() {
             <strong>Submission Process:</strong> All full papers will undergo peer review based on originality, technical rigor, research
             depth, correctness, relevance, and contributions to the research community.
           </li>
-          <li className="sm:text-lg text-base mb-4">
-            <strong>Publication:</strong> Accepted and registered papers will be published in the conference proceedings of IIPA with
-            an ISBN.
-          </li>
+          
           <li className="sm:text-lg text-base mb-4">
             <strong>Author Participation:</strong> For papers with multiple authors, at least one author must register and present the
             paper to receive a presentation/publication certificate.
@@ -77,11 +74,17 @@ function paper() {
         Publication
         </h1>
         <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
-          <li className="sm:text-lg text-base mb-4">
-            Papers will be published in the conference proceedings of IIPA with an ISBN.
+        <li className="sm:text-lg text-base mb-4">
+            Accepted Paper after rigorous review process will be published in:
           </li>
           <li className="sm:text-lg text-base mb-4">
-            Sage publications (Scopus Indexed) Special Issue (proposed)
+            1. <strong>Springer Proceedings (Proposed)</strong> with Scopus Indexing
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            2. <strong>Sage Publications (Special Issue)</strong> - Scopus Indexed
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            3. <strong>IIPA Conference Proceedings</strong> with ISBN Number
           </li>
         </ul>
       </div>
