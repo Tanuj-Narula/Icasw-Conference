@@ -20,7 +20,7 @@ function paper() {
             research, objectives, methodology, results, and conclusions.
           </li>
           <li className="sm:text-lg text-base mb-4">
-            <strong>Keywords:</strong> 5-4 keywords relevant to the paper.
+            <strong>Keywords:</strong> 4-5 keywords relevant to the paper.
           </li>
           <li className="sm:text-lg text-base mb-4">
             <strong>Main Content:</strong> Should typically include:
@@ -57,35 +57,25 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
             Paper Submission Details
         </h1>
-        <ul className="list-disc mt-8 w-[90%] ml-5 sm:ml10">
-          <li className="sm:text-lg text-base mb-4">
-            <strong>Submission Process:</strong> 
-            <ul className="list-disc  list-inside w-[90%] ml-[10%] sm:ml10">
-              <li className="sm:text-lg text-base mb-4">
-                Papers must be original articles and must be more than 6000 words each (preferred).
-              </li>
-              <li className="sm:text-lg text-base mb-4">
-                Papers must not have been submitted elsewhere.
-              </li>
-              <li className="sm:text-lg text-base mb-4">
-                Re-use of published material must be kept at bare minimum since these are supposed to be original article. Any re-use of published content must be explained, and authors must obtain permission for approved re-use.
-              </li>
-              <li className="sm:text-lg text-base mb-4">
-                Double blind peer reviewing process will be followed for reviewing the paper.
-              </li>
-              <li className="sm:text-lg text-base mb-4">
-              Only those paper that pass the review process of organizers as well as publisher will be included in the proceedings volume.
-              </li>
+        <ul className="list-disc mt-8 list-inside space-y-4">
+          <li>
+            <strong>Submission Process:</strong>
+            <ul className="list-disc list-inside ml-5 space-y-2">
+              <li>Papers must be original and exceed 6000 words.</li>
+              <li>Papers must not have been submitted elsewhere.</li>
+              <li>Re-use of published material must be minimal, with proper permission.</li>
+              <li>Double-blind peer reviewing will be followed.</li>
+              <li>Only papers passing both organizer and publisher review will be included.</li>
             </ul>
           </li>
-          <li className="sm:text-lg text-base mb-4">
-            <strong>Publication:</strong> Accepted and registered papers will be published in the conference proceedings of IIPA with
-            an ISBN.
+          <li>
+            <strong>Publication:</strong>
+            <ul className="list-disc list-inside ml-5 space-y-2">
+              <li>Proposed Springer proceedings with ISBN number.</li>
+              <li>Accepted papers will be published in the IIPA conference proceedings.</li>
+            </ul>
           </li>
-          <li className="sm:text-lg text-base mb-4">
-            <strong>Author Participation:</strong> For papers with multiple authors, at least one author must register and present the
-            paper to receive a presentation/publication certificate.
-          </li>
+          <li><strong>Author Participation:</strong> At least one author must register and present the paper to receive certification.</li>
         </ul>
       </div>
       <div className="h-auto sm:text-justify p-10 mt-2">
