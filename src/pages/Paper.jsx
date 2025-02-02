@@ -59,8 +59,24 @@ function paper() {
         </h1>
         <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
           <li className="sm:text-lg text-base mb-4">
-            <strong>Submission Process:</strong> All full papers will undergo peer review based on originality, technical rigor, research
-            depth, correctness, relevance, and contributions to the research community.
+            <strong>Submission Process:</strong> 
+            <ul className="list-disc  list-inside w-[90%] ml-[10%] sm:ml10">
+              <li className="sm:text-lg text-base mb-4">
+                Papers must be original articles and must be more than 6000 words each (preferred).
+              </li>
+              <li className="sm:text-lg text-base mb-4">
+                Papers must not have been submitted elsewhere.
+              </li>
+              <li className="sm:text-lg text-base mb-4">
+                Re-use of published material must be kept at bare minimum since these are supposed to be original article. Any re-use of published content must be explained, and authors must obtain permission for approved re-use.
+              </li>
+              <li className="sm:text-lg text-base mb-4">
+                Double blind peer reviewing process will be followed for reviewing the paper.
+              </li>
+              <li className="sm:text-lg text-base mb-4">
+              Only those paper that pass the review process of organizers as well as publisher will be included in the proceedings volume.
+              </li>
+            </ul>
           </li>
           <li className="sm:text-lg text-base mb-4">
             <strong>Publication:</strong> Accepted and registered papers will be published in the conference proceedings of IIPA with
@@ -81,7 +97,7 @@ function paper() {
             Papers will be published in the conference proceedings of IIPA with an ISBN.
           </li>
           <li className="sm:text-lg text-base mb-4">
-            Sage publications (Scopus Indexed) Special Issue (proposed)
+            Proposed Springer proceedings with ISBN No.
           </li>
         </ul>
         <div className="pt-16">
