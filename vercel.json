@@ -2,13 +2,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/ic-icasw2025/index.html"
     }
   ],
   "redirects": [
     {
       "source": "/",
-      "destination": "/ic-icasw2025",
+      "destination": "/ic-icasw2025/",
       "permanent": true
     }
   ]
