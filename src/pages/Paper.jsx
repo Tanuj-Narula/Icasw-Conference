@@ -3,11 +3,11 @@ import React from "react";
 function paper() {
   return (
     <>
-      <div className="h-auto sm:text-justify p-10 mt-16">
+      <div className="h-auto sm:text-justify px-10 mt-16">
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
           Paper Submission Guidlines
         </h1>
-        <ul className="list-disc mt-6 list-inside w-[90%] ml-2 sm:ml10">
+        <ul className="list-disc mt-8 list-inside w-[90%] ml-2 sm:ml10">
           <li className="sm:text-lg text-base mb-4">
             <strong>Title:</strong> A concise and informative title.
           </li>
@@ -57,7 +57,7 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
             Paper Submission Details
         </h1>
-        <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
+        <ul className="list-disc mt-8 w-[90%] ml-5 sm:ml10">
           <li className="sm:text-lg text-base mb-4">
             <strong>Submission Process:</strong> 
             <ul className="list-disc  list-inside w-[90%] ml-[10%] sm:ml10">
@@ -92,7 +92,7 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
         Publication
         </h1>
-        <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
+        <ul className="list-disc mt-8 w-[90%] ml-5 sm:ml10">
           <li className="sm:text-lg text-base mb-4">
             Papers will be published in the conference proceedings of IIPA with an ISBN.
           </li>
@@ -102,7 +102,7 @@ function paper() {
         </ul>
         <div className="pt-16">
         <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Important Dates</h1>
-      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
+      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-8">
       <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
         <p className='text-lg sm:text-base font-bold'>Call for Paper Open</p>
         <p className='text-lg font-bold'>Submission Deadline</p>

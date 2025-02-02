@@ -14,7 +14,7 @@ function Home() {
     <div className="sm:text-justify px-10 mt-16 h-auto ">
         <div>
         <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black ">About Conference</h1>
-          <p className="mt-6">
+          <p className="mt-8">
             The Indian Institute of Public Administration (IIPA), in collaboration
             with Vivekananda Institute of Professional Studies - Technical Campus
             (VIPS-TC), is hosting the upcoming International Conference on
@@ -50,7 +50,7 @@ function Home() {
         </div>
         <div className="mt-16">
         <h1 className="inline  rounded-br-3xlinline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black">Conference Tracks</h1>
-            <ol className="pt-10 text-md list-decimal list-inside">
+            <ol className="pt-8 text-md list-decimal list-inside">
                 <li>Mitigation and Adaptation Strategies for Climate Change in India.</li>
                 <li>Integration of Sustainable Development Goals (SDGs) in Climate Action Plan.</li>
                 <li> Harnessing Artificial Intelligence for Climate Resilience in Water Management.</li>

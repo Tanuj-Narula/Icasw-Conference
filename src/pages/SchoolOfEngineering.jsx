@@ -2,8 +2,9 @@ import React from 'react'
 
 function SchoolOfEngineering() {
   return (
-    <div className='h-auto sm:text-justify px-10 mt-16'>
+    <div className='h-auto sm:text-justify px-10 mt-5'>
       <div>
+        <img src='/images/vipsbg.jpg' alt='vips-tc' className='h-[60vh] rounded-sm w-full mb-8 shadow-[0px_5px_12px_#000000a5]' />
         <h1 className=" font-bold sm:inline hidden text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black">About School of Engineering & Technology</h1>
         <h1 className=" font-bold sm:hidden inline text-lg  bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black ">About VSET</h1>
         <p  className="mt-8 "><b>VIPC-TC, School of Engineering & Technology</b>, has a state-of-the-art campus dedicated to impart knowledge and experience that are essential for leading the future of engineering. It aims to create a generation of engineers who are equipped with the right mindset and skillset to shape and build a stronger society. Backed by the two-decade-long and profound legacy of Vivekananda Institute of Professional Studies-Technical Campus, School of Engineering & Technology, is now en-route to prepare young minds to lead and innovate Industry 4.0. The school focuses on promoting a student-centered approach with a blended learning curriculum. The curriculum is curated to develop a deep understanding of how things function and find practical solutions by applying the learned theories and scientific processes with hands-on exposure.</p>
@@ -14,11 +15,11 @@ function SchoolOfEngineering() {
       <div className='mt-8 flex justify-around w-full'>
         <div className='w-[30%] text-wrap'>
           <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Vision</h1>
-          <p className='mt-4'>To empower and build a sustainable future for the engineering sector by providing high-quality education to young minds and inculcate innovative practices that support the planet and its people.</p>
+          <p className='mt-8'>To empower and build a sustainable future for the engineering sector by providing high-quality education to young minds and inculcate innovative practices that support the planet and its people.</p>
         </div>
         <div className='w-[30%] text-wrap'>        
           <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black ">Mission</h1>
-          <p className='mt-4'>
+          <p className='mt-8'>
           To empower and build a sustainable future for the engineering sector by providing high-quality education to young minds and inculcate innovative practices that support the planet and its people.
           </p>
         </div>
@@ -35,11 +36,11 @@ function SchoolOfEngineering() {
       <div className='mt-8 flex justify-around w-full'>
         <div className='w-[30%] text-wrap'>
           <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black">Vision</h1>
-          <p className='mt-4'>To strengthen the foundation of B.Tech students in the areas of Applied Sciences and Humanities by promoting research in interdisciplinary areas, fostering analytical thinking and clear communication. Thus, forging a path towards a brighter, technology-driven future with a strong value system.</p>
+          <p className='mt-8'>To strengthen the foundation of B.Tech students in the areas of Applied Sciences and Humanities by promoting research in interdisciplinary areas, fostering analytical thinking and clear communication. Thus, forging a path towards a brighter, technology-driven future with a strong value system.</p>
         </div>
         <div className='w-[30%] text-wrap'>        
           <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-2 text-black ">Mission</h1>
-          <p className='mt-4'>To empower our students with a profound understanding of applied sciences, equipping them with the knowledge and skills to excel in a rapidly evolving technological landscape. To inculcate the research mindset in students through collaborative research endeavor's from fundamental science to technology for addressing global challenges. To cultivate a culture of lifelong learning, ethical responsibility, and leadership within our academic community. To bridge academia and industry by providing experiential learning opportunities and fostering strategic partnerships that promote practical application of scientific principles.
+          <p className='mt-8'>To empower our students with a profound understanding of applied sciences, equipping them with the knowledge and skills to excel in a rapidly evolving technological landscape. To inculcate the research mindset in students through collaborative research endeavor's from fundamental science to technology for addressing global challenges. To cultivate a culture of lifelong learning, ethical responsibility, and leadership within our academic community. To bridge academia and industry by providing experiential learning opportunities and fostering strategic partnerships that promote practical application of scientific principles.
           </p>
         </div>
       </div>

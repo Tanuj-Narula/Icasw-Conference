@@ -54,8 +54,8 @@ function Navbar() {
           <li>
             <NavLink
               onClick={toggleMenu}
-              to="/"
-              className={({ isActive }) =>
+              to="/home"
+              className={({ isActive  }) =>
                 `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
               }
             >

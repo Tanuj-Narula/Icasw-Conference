@@ -6,7 +6,7 @@ function Advisory() {
     <>
     <div className='h-auto sm:text-justify p-10 pt-16 '>
       <h1 className="inline font-bold  text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black ">Advisory Committee</h1>
-        <ul className="list-disc pt-5 mt-8 w-[95%] ml-3 sm:ml-10">
+        <ul className="list-disc mt-8 w-[95%] ml-3 sm:ml-10">
           <li className='mt-1'>Shri S.N. Tripathi, DG IIPA</li>
           <li className='mt-1'>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
           <li className='mt-1'>Professor Nibedita S. Ray-Bennett FRGS, FHEAProfessor of Risk Management Founder & President, Avoidable Deaths NetworkInterim Associate Director & Research Challenge Leader, Institute for Environmental FuturesMarketing and Strategy, School of Business0.26 Teaching Centre, BrookfieldUniversity of Leicester, Leicester</li>
