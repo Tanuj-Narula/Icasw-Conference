@@ -12,6 +12,7 @@ export default {
       },
       boxShadow: {
         'cstm': '0 0 0.5rem rgba(0, 0, 0, 0.3)',
+        'heading' :'5px 5px black'
       },
       screens: {
         'xs': '350px',

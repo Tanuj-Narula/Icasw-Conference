@@ -2,10 +2,10 @@ import React from 'react'
 
 function Registration() {
   return (
-    <div className='h-auto sm:text-justify p-10 mt-10'>
+    <div className='h-auto sm:text-justify px-10 mt-16'>
     <div>
-      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Registration Details</h1>
-      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Registration Details</h1>
+      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-8">
       <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
         <p className='text-lg font-bold'>Category</p>
         <p className='text-lg font-bold'>Student</p>
@@ -31,8 +31,8 @@ function Registration() {
 
 
     <div className='h-auto sm:text-justify mt-5'>
-      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 shadow-slate-700 shadow-md p-2 text-black rounded-tl-3xl rounded-br-3xl">Bank details of IIPA</h1>
-      <div className="grid grid-cols-2 mt-10 custom-grid">
+      <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Bank details of IIPA</h1>
+      <div className="grid grid-cols-2 mt-8 custom-grid">
       <div className="grid grid-cols-1 gap-3 mt-4">
         <p className='text-lg font-bold'>Beneficiary/ Account Name</p>
         <p className='text-lg font-bold'>Bank Name & Branch</p>
