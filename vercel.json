@@ -1,11 +1,11 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ],
-    "redirects": [
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
     {
       "source": "/",
       "destination": "/ic-icasw2025",
@@ -13,4 +13,3 @@
     }
   ]
 }
-  
