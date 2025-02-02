@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 function Carousel() {
   const [active, setActive] = useState(0);
   const images = [
-    '/ic-icasw2025/images/vipsbg.jpg',
-    '/ic-icasw2025/images/iipabg1.jpg',
-    '/ic-icasw2025/images/vipsbg1.jpg',
-    '/ic-icasw2025/images/iipabg2.jpeg',
+    '/images/vipsbg.jpg',
+    '/images/iipabg1.jpg',
+    '/images/vipsbg1.jpg',
+    '/images/iipabg2.jpeg',
   ];
 
   useEffect(() => {
