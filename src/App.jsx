@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes ,Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import SchoolOfEngineering from './pages/SchoolOfEngineering';
 import IIPA from './pages/IIPA';
@@ -17,10 +17,11 @@ import Patron from './pages/patron';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/ic-icasw2025">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/home" element={<Home/>} />
         <Route path="/school-of-engineering" element={<SchoolOfEngineering />} />
         <Route path="/iipa" element={<IIPA />} />
         <Route path="/agenda" element={<Agenda />} />

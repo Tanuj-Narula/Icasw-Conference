@@ -3,11 +3,11 @@ import React from "react";
 function paper() {
   return (
     <>
-      <div className="h-auto sm:text-justify p-10 mt-16">
+      <div className="h-auto sm:text-justify px-10 mt-16">
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
           Paper Submission Guidlines
         </h1>
-        <ul className="list-disc mt-6 list-inside w-[90%] ml-2 sm:ml10">
+        <ul className="list-disc mt-8 list-inside w-[90%] ml-2 sm:ml10">
           <li className="sm:text-lg text-base mb-4">
             <strong>Title:</strong> A concise and informative title.
           </li>
@@ -57,7 +57,7 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
             Paper Submission Details
         </h1>
-        <ul className="list-disc mt-6 list-inside space-y-4">
+        <ul className="list-disc mt-8 list-inside space-y-4">
           <li>
             <strong>Submission Process:</strong>
             <ul className="list-disc list-inside ml-5 space-y-2">
@@ -68,12 +68,10 @@ function paper() {
               <li>Only papers passing both organizer and publisher review will be included.</li>
             </ul>
           </li>
-          <li>
-            <strong>Publication:</strong>
-            <ul className="list-disc list-inside ml-5 space-y-2">
-              <li>Proposed Springer proceedings with ISBN number.</li>
-              <li>Accepted papers will be published in the IIPA conference proceedings.</li>
-            </ul>
+          
+          <li className="sm:text-lg text-base mb-4">
+            <strong>Author Participation:</strong> For papers with multiple authors, at least one author must register and present the
+            paper to receive a presentation/publication certificate.
           </li>
           <li><strong>Author Participation:</strong> At least one author must register and present the paper to receive certification.</li>
         </ul>
@@ -83,16 +81,22 @@ function paper() {
         Publication
         </h1>
         <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
-          <li className="sm:text-lg text-base mb-4">
-            Papers will be published in the conference proceedings of IIPA with an ISBN.
+        <li className="sm:text-lg text-base mb-4">
+            Accepted Paper after rigorous review process will be published in:
           </li>
           <li className="sm:text-lg text-base mb-4">
-            Proposed Springer proceedings with ISBN No.
+            1. <strong>Springer Proceedings (Proposed)</strong> with Scopus Indexing
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            2. <strong>Sage Publications (Special Issue)</strong> - Scopus Indexed
+          </li>
+          <li className="sm:text-lg text-base mb-4">
+            3. <strong>IIPA Conference Proceedings</strong> with ISBN Number
           </li>
         </ul>
         <div className="pt-16">
         <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Important Dates</h1>
-      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-10">
+      <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-8">
       <div className="grid grid-rows-6 sm:gap-4 gap-6 mt-4">
         <p className='text-lg sm:text-base font-bold'>Call for Paper Open</p>
         <p className='text-lg font-bold'>Submission Deadline</p>

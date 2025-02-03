@@ -7,7 +7,7 @@ function Patron() {
 <div className="h-auto sm:text-justify pt-16 p-10">
   <h1 className="inline font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 rounded-[7px] shadow-heading p-4 text-black ">Our Patrons</h1>
   
-  <div className="overflow-x-auto pt-6 mt-8">
+  <div className="overflow-x-auto mt-12">
     <table className="table-auto w-full border-collapse mx-auto">
       <thead>
         <tr className="bg-[#0C4f18] text-white text-lg border border-black">
