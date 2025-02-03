@@ -66,14 +66,12 @@ function paper() {
               <li>Re-use of published material must be minimal, with proper permission.</li>
               <li>Double-blind peer reviewing will be followed.</li>
               <li>Only papers passing both organizer and publisher review will be included.</li>
+              <li>For research paper with multiple authors, one author must register as corresponding author. Once selected,Paper presentation is necessary to receive the certificate</li>
             </ul>
           </li>
           
-          <li className="sm:text-lg text-base mb-4">
-            <strong>Author Participation:</strong> For papers with multiple authors, at least one author must register and present the
-            paper to receive a presentation/publication certificate.
-          </li>
-          <li><strong>Author Participation:</strong> At least one author must register and present the paper to receive certification.</li>
+         
+          
         </ul>
       </div>
       <div className="h-auto sm:text-justify p-10 mt-2">
