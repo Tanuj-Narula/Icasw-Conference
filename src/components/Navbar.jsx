@@ -155,7 +155,7 @@ function Navbar() {
                     }
                     onClick={toggleMenu}
                   >
-                    Review Committe
+                    Review Committee
                   </NavLink>
                 </li>
                 <li className="group relative">
