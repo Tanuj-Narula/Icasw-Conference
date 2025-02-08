@@ -56,7 +56,7 @@ function App() {
       <SpeakerCard
         img="/images/sujeet.png"
         name="Prof. Sujeet Kumar Sinha"
-        designation="Expertise Biotribology and Viomaterial"
+        designation="Expertise Biotribology and Biomaterial"
         company="Dept. of Mechanical Engineering IIT Delhi"
         location="Former Faculty NUS Singapore"
       />
