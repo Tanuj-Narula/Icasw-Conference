@@ -12,7 +12,7 @@ function Advisory() {
           <li className='mt-1'>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
           <li className='mt-1'>Professor Nibedita S. Ray-Bennett FRGS, FHEAProfessor of Risk Management Founder & President, Avoidable Deaths NetworkInterim Associate Director & Research Challenge Leader, Institute for Environmental FuturesMarketing and Strategy, School of Business0.26 Teaching Centre, BrookfieldUniversity of Leicester, Leicester</li>
           <li className='mt-1'>Prof. Prosun Bhattacharya, Professor of Groundwater Chemistry, Dept. of Sustainable Development, Environmental Science and Engineering, KTH Royal Institute of Technology, Stockholm, Sweden</li>
-          <li className='mt-1'>Sanjjev Sharma, CO-FOUNDER ExcelDOTS, Sweden</li>
+          <li className='mt-1'>Sanjeev Sharma, CO-FOUNDER ExcelDOTS, Sweden</li>
           <li className='mt-1'>Prof. C. K. Varshney, Professor Emeritus, JNU</li>
           <li className='mt-1'>Dr. Sachidananda Satapathy, Ex-Director Climate Change, MOEFCC</li>
           <li className='mt-1'> Mr. Ashish Jain, Indian Pollution Control
