@@ -10,9 +10,9 @@ import Paper from './pages/Paper';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Patron from './pages/Patron';
 import Organizing from './pages/Organizing';
 import Reviewer from './pages/Reviewer';
+import Patron from './pages/Patron';
 
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
         <Route path="/Committee/advisory Committee" element={<Advisory />} />
         <Route path="/Committee/organizing Committee" element={<Organizing/>} />
         <Route path="/Committee/reviewers" element={<Reviewer/>} />
-        <Route path="/Committee/patrons" element={<Patron />} />
+        <Route path="/Committee/patrons" element={<Patron/>} />
         <Route path="/contact us" element={<Contact />} />
       </Routes>
     </Router>
