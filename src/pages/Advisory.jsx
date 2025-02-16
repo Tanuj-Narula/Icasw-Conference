@@ -29,6 +29,8 @@ function Advisory() {
           <li className='mt-1'>Prof. S.G. Warkar, Dean Student Welfare and Professor
             of Chemistry, Delhi Technological University, Delhi</li>
           <li className='mt-1'>Dr Babankumar S. Bansod, Senior Principal Scientist, CSIR-CSIO and Professor, Academy of Scientific and Innovative Research</li>
+          <li className='mt-1'>Dr. POOJA DEVI
+          Principal Scientist, Materials Science and Sensor Applications, CSIR-CSIO, Chandigarh</li>
         </ul>  
 </div>
  

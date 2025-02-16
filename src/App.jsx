@@ -5,14 +5,14 @@ import IIPA from './pages/IIPA';
 import Agenda from './pages/Agenda';
 import Registration from './pages/Registration';
 import Speakers from './pages/Speakers';
-import Advisory from './pages/advisroy';
-import Organizing from './pages/organizing';
+import Advisory from './pages/Advisory';
+import Organizing from './pages/Organizing';
 import Paper from './pages/Paper';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Reviewer from './pages/reviewer';
-import Patron from './pages/patron';
+import Reviewer from './pages/Reviewer';
+import Patron from './pages/Patron';
 
 function App() {
   return (
