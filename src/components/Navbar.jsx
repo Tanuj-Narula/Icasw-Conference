@@ -33,8 +33,8 @@ function Navbar() {
   </Link>
   <Link to="/">
     <img 
-      src="/images/vips_logo.png" 
-      alt="Logo" 
+      src="/images/namami.png" 
+      alt="Namami" 
       className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
     />
   </Link>
@@ -50,9 +50,11 @@ function Navbar() {
         </div>
         <Link to="/">
     <img 
-      src="/images/iipa.png" 
-      alt="IIPA" 
-      className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
+      src="/images/CSIR.jpg" 
+      alt="CSIR"
+      className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full border-2 border-white object-cover transition-transform duration-300 hover:scale-105"
+ 
+      // className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain rounded-full border-2 border-white transition-transform duration-300 hover:scale-105"
     />
   </Link>
   <Link to="/">
