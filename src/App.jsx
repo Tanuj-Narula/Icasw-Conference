@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Organizing from './pages/Organizing';
 import Reviewer from './pages/Reviewer';
 import Patron from './pages/Patron';
+import Partners from './pages/Partners';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Committee/reviewers" element={<Reviewer/>} />
         <Route path="/Committee/patrons" element={<Patron/>} />
         <Route path="/contact us" element={<Contact />} />
+        <Route path="/partners" element={<Partners />} />
       </Routes>
     </Router>
 

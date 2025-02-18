@@ -24,20 +24,44 @@ function Navbar() {
       </div>
 
       <div className="flex z-10 relative py-2 justify-between items-center bg-transparent w-full px-4">
-        <Link to="/">
-          <img src="/images/vips_logo.png" alt="Logo" className="h-16 sm:h-28 sm:ml-2 mx-2" />
-        </Link>
+      <Link to="/">
+    <img 
+      src="/images/vips_logo.png" 
+      alt="Logo" 
+      className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
+    />
+  </Link>
+  <Link to="/">
+    <img 
+      src="/images/vips_logo.png" 
+      alt="Logo" 
+      className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
+    />
+  </Link>
 
         <div className="text-center text-xl">
+        <h2 className="text-xl font-bold hidden py-1 px-3 bg-emerald-700 sm:inline rounded-2xl">Hybrid</h2> 
+        <h2 className="text-xl font-bold hidden sm:block">INTERNATIONAL CONFERENCE ON</h2> 
           <h1 className="text-5xl font-bold hidden sm:block">ICASW Conference 2025</h1> 
           <h1 className="text-2xl font-bold block sm:hidden">ICASW </h1>
           <h1 className="text-base font-bold block sm:hidden">Conference </h1>
           <p className="text-sm sm:text-lg font-semibold hidden sm:block">Integrating Climate Action, AI, SDGs, and Water Management</p>
-          <p className="text-sm sm:text-lg font-semibold hidden sm:block">19th - 20th March, 2025</p>
+          {/* <p className="text-sm sm:text-lg font-semibold hidden sm:block">19th - 20th March, 2025</p> */}
         </div>
-
-        <img src="/images/iipa.png" alt="IIPA" className="h-16 sm:h-28 block sm:mr-2 mr-4" />
-        
+        <Link to="/">
+    <img 
+      src="/images/iipa.png" 
+      alt="IIPA" 
+      className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
+    />
+  </Link>
+  <Link to="/">
+    <img 
+      src="/images/iipa.png" 
+      alt="IIPA" 
+      className="h-12 sm:h-20 md:h-24 lg:h-28 max-w-[100px] sm:max-w-[140px] lg:max-w-[160px] object-contain transition-transform duration-300 hover:scale-105"
+    />
+  </Link>
         <button className="sm:hidden text-2xl" onClick={toggleMenu}>
           {isMenuOpen ? '×' : '≡'}
         </button>
@@ -45,7 +69,7 @@ function Navbar() {
 
       <div className="marquee-text">
         <span>
-          Welcome to ICASW Conference 2025! . . . . . . . . . . Registration is Now OPEN! . . . . . . . . . . Register NOW!
+          Welcome to ICASW Conference 2025! . . . . . . . . . . Registration is Now OPEN! . . . . . . . . . . Register NOW! . . . . . . . . . . 19th - 20th March, 2025
         </span>
       </div>
 
@@ -95,6 +119,17 @@ function Navbar() {
               }
             >
               Agenda
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              onClick={toggleMenu}
+              to="/partners"
+              className={({ isActive }) =>
+                `block py-4 px-4 font-bold text-base ${isActive ? 'text-yellow-300' : 'text-black'} hover:text-yellow-400`
+              }
+            >
+              Partners
             </NavLink>
           </li>
          
