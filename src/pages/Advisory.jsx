@@ -9,7 +9,7 @@ function Advisory() {
         <ul className="list-disc pt-5 mt-8 w-[95%] ml-3 sm:ml-10">
           <li className='mt-1'>Shri S.N. Tripathi, Director General (DG), Indian
             Institue of Public Administration (IIPA)</li>
-          <li className='mt-1'>Prof. David Sanderson, Professor and Inaugural Judith Neilson Chair in Architecture Faculty of Arts,Design and Architecture UNSW Sydney, Australia</li>
+          <li className='mt-1'>Prof. Rajib Shaw , Professor in Graduate School of Media and Governance, Keio University’s, Shonan Fujisawa Campus (SFC)</li>
           <li className='mt-1'>Professor Nibedita S. Ray-Bennett FRGS, FHEAProfessor of Risk Management Founder & President, Avoidable Deaths NetworkInterim Associate Director & Research Challenge Leader, Institute for Environmental FuturesMarketing and Strategy, School of Business0.26 Teaching Centre, BrookfieldUniversity of Leicester, Leicester</li>
           <li className='mt-1'>Prof. Prosun Bhattacharya, Professor of Groundwater Chemistry, Dept. of Sustainable Development, Environmental Science and Engineering, KTH Royal Institute of Technology, Stockholm, Sweden</li>
           <li className='mt-1'>Sanjeev Sharma, CO-FOUNDER ExcelDOTS, Sweden</li>

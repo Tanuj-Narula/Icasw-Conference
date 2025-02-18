@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
        <SpeakerCard
-        img="/images/david.png"
-        name="David Sanderson"
-        designation="Professor and Inaugural Judith Neilson Chair"
-        company="in Architecture, Faculty of Arts, Design and Architecture"
-        location="UNSW Sydney, Australia"
+        img="/images/Rajib.png"
+        name="Prof. Rajib Shaw"
+        designation="Professor in Graduate School of Media and Governance"
+        company=" Keio University’s"
+        location="Shonan Fujisawa Campus (SFC)"
       />
       <SpeakerCard
         img="/images/Nibedita.png"

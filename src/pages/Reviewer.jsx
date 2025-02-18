@@ -220,6 +220,12 @@ function Reviewer() {
             <td className="border border-black p-4 font-semibold">   </td>
             <td className="border border-black p-4 font-semibold">VIPS-TC</td>
           </tr>
+          <tr>
+            <td className="sm:text-lg font-semibold border border-black p-4">35.</td>
+            <td className="sm:text-lg font-semibold border border-black p-4">Dr. Mohammad Atif </td>
+            <td className="border border-black p-4 font-semibold">Wahid</td>
+            <td className="border border-black p-4 font-semibold">VIPS-TC</td>
+          </tr>
         </tbody>
       </table>
       </div>
