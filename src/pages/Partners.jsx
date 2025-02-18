@@ -10,7 +10,7 @@ function Partners() {
 
   return (
    <>
-   <div>karlo kaam</div>
+   <div></div>
     </>
   );
 }
