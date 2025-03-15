@@ -19,13 +19,6 @@ function App() {
         location="Brookfield University of Leicester, Leicester"
       />
       <SpeakerCard
-        img="/images/Prateek.png"
-        name="Prof. Prateek Sharma"
-        designation="Vice – Chancellor"
-        company="Delhi Technological University"
-        location=""
-      />
-      <SpeakerCard
         img="/images/harish.png"
         name="Prof. Harish Hirani HAG"
         designation="Former Director CSIR"
@@ -39,6 +32,13 @@ function App() {
         company="Dept. of Sustainable Development, Environmental Science and Engineering"
         location="KTH Royal Institute of Technology, Stockholm, Sweden"
       />
+        <SpeakerCard
+        img="/images/Arun.png"
+        name="Dr. Arun Kansal"
+        designation="Director (ICWMR) and Professor"
+        company="TERI School of Advanced Studies"
+        location=""
+      />
       <SpeakerCard
         img="/images/pankaj.png"
         name="Dr. Pankaj Thakur"
@@ -47,11 +47,11 @@ function App() {
         location="JNU, Delhi"
       />
       <SpeakerCard
-        img="/images/Ranu.png"
-        name="Prof. (Dr.) Ranu Gadi"
+        img="/images/Gopal.png"
+        name="Dr. Gopal Krishan"
         designation="Professor,Dean"
-        company="Dept. of App. Sciences & Humanities,(Industrial Res. & Development and Res. & Consultancy)"
-        location="Indira Gandhi Delhi Technical University for Women"
+        company="Jal Vigyan Bhawan Groundwater Hydrology Division"
+        location="National Institute of Hydrology, Roorkee-247 667 (Uttarakhand)"
       />
       <SpeakerCard
         img="/images/sujeet.png"
@@ -59,6 +59,13 @@ function App() {
         designation="Expertise Biotribology and Biomaterial"
         company="Dept. of Mechanical Engineering IIT Delhi"
         location="Former Faculty NUS Singapore"
+      />
+        <SpeakerCard
+        img="/images/Pooja.png"
+        name="Dr.Pooja Devi"
+        designation="Principal Scientist"
+        company="CSIR-CSIO"
+        location="Raman Research Fellow, Drexel University। Associate Professor, AcSIR I CC Member"
       />
     </div>
   );

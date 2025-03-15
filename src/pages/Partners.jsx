@@ -39,7 +39,14 @@ function Partners() {
         <img src="/images/Leicester.jpg" alt="moefcc" className="rounded-lg sm:h-[160px]" />
         <p>University of Leicester - Environmental Law Foundation</p>
       </div>
+     
     </div>
+    <div className='h-auto flex flex-wrap items-center gap-y-20 text-sm sm:text-base justify-evenly text-center w-screen p-10 pt-16 '>
+      <div className="flex flex-col items-center gap-6 h-auto border p-6 rounded-md w-auto sm:w-[20vw] hover:shadow-md hover:cursor-pointer" >
+        <img src="/images/Publication.png" alt="moefcc" className="rounded-lg sm:h-[160px]" />
+        <p>Publications</p>
+      </div>
+      </div>
     </>
   );
 }
