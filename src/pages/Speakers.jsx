@@ -61,7 +61,7 @@ function App() {
         location="Former Faculty NUS Singapore"
       />
         <SpeakerCard
-        img="/images/Pooja.png"
+        img="/images/pooja.png"
         name="Dr.Pooja Devi"
         designation="Principal Scientist"
         company="CSIR-CSIO"
