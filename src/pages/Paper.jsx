@@ -78,20 +78,23 @@ function paper() {
         <h1 className="inline text-xs font-bold xs:max-sm:text-lg sm:text-xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">
         Publication
         </h1>
-        <ul className="list-disc mt-6 w-[90%] ml-5 sm:ml10">
-        <li className="sm:text-lg text-base mb-4">
-            Accepted Paper after rigorous review process will be published in:
+          <h2 className="text-lg mt-6">Accepted Paper after rigorous review process will be published in:</h2>
+          <ul className="list-disc list-inside w-[90%] ml-5 sm:ml10">
+          <li className="sm:text-lg text-base mb-4">
+            <strong>Springer Proceedings (Proposed)</strong> with Scopus Indexing
           </li>
           <li className="sm:text-lg text-base mb-4">
-            1. <strong>Springer Proceedings (Proposed)</strong> with Scopus Indexing
+            <strong>Sage Publications (Special Issue)</strong> - Scopus Indexed
           </li>
           <li className="sm:text-lg text-base mb-4">
-            2. <strong>Sage Publications (Special Issue)</strong> - Scopus Indexed
-          </li>
-          <li className="sm:text-lg text-base mb-4">
-            3. <strong>IIPA Conference Proceedings</strong> with ISBN Number
+            <strong>abstract booklet</strong> with ISBN Number
           </li>
         </ul>
+        <span className="flex gap-6 mt-4 ml-10 items-center">
+        <img src="/images/sage-logo.png" alt="sage" className="h-[10vh]" />
+        <img src="/images/Scopus_logo.svg.png" alt="scopus" className="h-[10vh]" />
+        </span>
+        <img src="/images/springer-logo.png" alt="" className="h-[10vh] ml-32" />
         <div className="pt-16">
         <h1 className="inline  font-bold text-lg sm:text-2xl bg-yellow-300 border-black border-2 p-2 text-black rounded-[7px] shadow-heading">Important Dates</h1>
       <div className="grid sm:grid-cols-custom grid-cols-custom-1 mt-8">
