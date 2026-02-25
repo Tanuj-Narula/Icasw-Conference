@@ -67,12 +67,13 @@ npm install
 ---
 
 3. Run Development Server
-
+```
 npm run dev
-
+```
 Visit:
+```
 http://localhost:5173
-
+```
 ---
 
 ## 📦 Deployment
@@ -84,7 +85,7 @@ https://icasw-conference.vercel.app
 
 ---
 
-## 🧠 Purpose
+##  Purpose
 
 This project serves as:
 
@@ -94,7 +95,7 @@ This project serves as:
 
 ---
 
-## ❤️ Built With
+##  Built With
 
 React  
 Vite  
@@ -103,6 +104,6 @@ Vercel
 
 ---
 
-## 📋 License
+## License
 
 This project is open-source and available for educational and demonstration purposes.
